@@ -1,30 +1,58 @@
 {
-  "questions": [
+  "perguntas": [
     {
-      "question": "O que é front-end?",
-      "options": ["Parte de um Sistema que é oculta ao usuário", "Parte de um sistema é visível e interativa ao usuário", "Uma instância em um servidor cloud","A infraestrtura de um site"],
-      "correctAnswer": "Parte de um sistema é visível e interativa ao usuário"
+      "id": 1,
+      "pergunta": "#1 - O que é Front-end?",
+      "alternativas": {
+        "A": "Parte de um sistema que é oculta para o usuário.",
+        "B": "Parte de um sistema é visível e interativa ao usuário.",
+        "C": "Parte lógica que recebe as regras de negócio.",
+        "D": "Nenhuma das alternativas anteriores."
+      },
+      "respostaCorreta": "B"
     },
     {
-      "question": "O que é ReactJS?",
-      "options": ["Uma poderosa biblioteca do JS", "Uma linguagem de programação", "Um servidor cloud', 'Uma ferramenta do Vscode"],
-      "correctAnswer": "Uma poderosa biblioteca do JS"
+      "id": 2,
+      "pergunta": "#2 - O que é React JS?",
+      "alternativas": {
+        "A": "Uma poderosa biblioteca JavaScript.",
+        "B": "Uma linguagem de Programação.",
+        "C": "Um servidor de Cloud.",
+        "D": "Todas as respostas anteriores."
+      },
+      "respostaCorreta": "A"
     },
     {
-      "question": "Quais as principais tecnologias do mundo front-end?",
-      "options": "['Javascript, Golang e Python', 'AWS, GCP, Azure', 'Kotlin, HTML e CSS', 'HTML, CSS, JavaScript']",
-      "correctAnswer": "HTML, CSS, JavaScript"
+      "id": 3,
+      "pergunta": "#3 - Quais as principais tecnologias do mundo front-end?",
+      "alternativas": {
+        "A": "Javascript, Golang e Python.",
+        "B": "AWS, GCP, Azure.",
+        "C": "Kotlin, HTML e CSS.",
+        "D": "HTML, CSS, JavaScript."
+      },
+      "respostaCorreta": "D"
     },
     {
-      "question": "Em que ano o ReactJS foi lançado?",
-      "options":["2010", "2012", "2013", "2015"],
-      "correctAnswer":"2013"
+      "id": 4,
+      "pergunta": "#4 - Em que ano o ReactJS foi lançado?",
+      "alternativas": {
+        "A": "2010",
+        "B": "2012",
+        "C": "2013",
+        "D": "2015"
+      },
+      "respostaCorreta": "C"
     },
     {
-      "question": "O que são hooks no React?",
-      "options":["São funcões de chamar arquivos", "Um componente","Funções que permitem a você ligar-se aos recursos de state e ciclo de vida do React a partir de componentes funcionais"],
-      "correctAnswer":"Funções que permitem a você ligar-se aos recursos de state e ciclo de vida do React a partir de componentes funcionais."
+      "id": 5,
+      "pergunta": "#5 - O que são hooks no React?",
+      "alternativas": {
+        "A": "São funções de chamar arquivos.",
+        "B": "Um componente.",
+        "C": "Funções que permitem a você ligar-se aos recursos de state e ciclo de vida do React a partir de componentes funcionais."
+      },
+      "respostaCorreta": "C"
     }
-    
   ]
 }
