@@ -6,7 +6,7 @@ const Quiz = () => {
   const [score, setScore] = useState(null);
   const [quizCompleted, setQuizCompleted] = useState(false);
 
-  const url = "http://localhost:3000/perguntas";
+  const url = "https://fake-7cpvzq5ps-wagners-projects-4d336811.vercel.app/perguntas";
 
   useEffect(() => {
     const fetchData = async () => {
